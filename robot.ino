@@ -111,17 +111,17 @@ void setup() {
 void loop() {
 Serial.print("Distance: ");
 Serial.println(distance);
-/*Serial.print(",");
+Serial.print(",");
 Serial.print("DistanceL: ");
 Serial.println(distanceL);
 Serial.print(",");
 Serial.print("DistanceR: ");
-Serial.println(distanceR);*/
-/*digitalWrite(trig , HIGH); 
+Serial.println(distanceR);
+digitalWrite(trig , HIGH); 
 delayMicroseconds(1000); 
 digitalWrite(trig , LOW);
 duration = pulseIn(echo , HIGH); 
-distance = (duration/2) / 28.5 ; */
+distance = (duration/2) / 28.5 ; 
 digitalWrite(trig , HIGH); 
 delayMicroseconds(1000); 
 digitalWrite(trig , LOW);
